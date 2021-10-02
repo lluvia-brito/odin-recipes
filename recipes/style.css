@@ -1,0 +1,14 @@
+body {
+    background-color: #EEEEEE;
+    color: #414141;
+}
+
+h1 {
+    background-color: black;
+    color: rgb(241, 210, 250);
+}
+
+ul {
+    list-style-type: square;
+    background-color: rgb(241, 210, 250);
+}
