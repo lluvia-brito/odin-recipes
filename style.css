@@ -1,14 +1,42 @@
-body {
-    background-color: #EEEEEE;
-    color: #414141;
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: monospace, "Lucida Console", serif;
 }
-
-h1 {
-    background-color: black;
-    color: rgb(241, 210, 250);
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: indigo;
+    color: lavender;
+    margin: auto;
+    width: 900px;
 }
-
-ul {
-    list-style-type: square;
-    background-color: rgb(241, 210, 250);
+.image {
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    margin: auto;
+}
+.link-container {
+    display: flex;
+    justify-content: center;
+    background-color:cadetblue;
+    width: 900px;
+    margin: auto;
+}
+.links {
+    display: flex;
+    justify-content:space-between;
+    width: 75%;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+}
+.coffee,
+.cigarettes, 
+.lemon-pie {
+    padding: 10px;
+    background-color: violet;
+    color: white;
 }
